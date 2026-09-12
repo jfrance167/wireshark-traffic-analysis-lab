@@ -1,0 +1,8 @@
+# Packet captures may contain sensitive host and network metadata.
+*.pcap
+*.pcapng
+*.cap
+
+# Wireshark temporary files
+*.pcapng.tmp
+*.pcap.tmp
