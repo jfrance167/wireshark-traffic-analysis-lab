@@ -2,6 +2,17 @@
 
 A hands-on network traffic analysis lab demonstrating how DNS resolution, a TCP three-way handshake, and TLS negotiation appear in a real Wireshark capture.
 
+## Security Notice
+
+This repository is an educational network-analysis lab for authorized traffic
+only. It is not production monitoring guidance. Packet captures can expose
+addresses, hostnames, sessions, and personal activity, so the raw capture is
+intentionally excluded and must not be published without review and
+sanitization. No intentionally vulnerable service or real credential is
+included.
+
+Do not deploy this project in production.
+
 ## Lab objectives
 
 - Capture live network traffic on a Windows Wi-Fi interface.

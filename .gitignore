@@ -6,3 +6,11 @@
 # Wireshark temporary files
 *.pcapng.tmp
 *.pcap.tmp
+.private/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa*
+id_ed25519*
