@@ -64,3 +64,21 @@ The original packet capture is intentionally excluded from this public repositor
 ## Skills demonstrated
 
 Network traffic capture, protocol analysis, DNS, TCP/IP, IPv4/IPv6, TLS, Wireshark display filters, evidence handling, and security documentation.
+
+## Local review
+
+Open the Markdown report and display-filter text file first. For a new capture, install Wireshark from its official distribution, select an authorized interface and follow the controlled test described above. Record your own capture/version/time details; the original capture is intentionally absent and its historical results are not a fresh test.
+
+## Repository map
+
+```text
+wireshark-traffic-analysis-lab/
+|-- .github/
+|-- .gitignore
+|-- DISPLAY_FILTERS.txt
+|-- README.md
+|-- SECURITY.md
+`-- WIRESHARK_TRAFFIC_ANALYSIS.md
+```
+
+Source, fixtures and historical reports serve different purposes; follow the setup and safety boundaries above before running any code.
